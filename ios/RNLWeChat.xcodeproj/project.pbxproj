@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B8B2D824A841060039D99D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B8B2D424A841050039D99D /* libWeChatSDK.a */; };
+		26B8B2D924A849E00039D99D /* WXApi.h in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B2D524A841060039D99D /* WXApi.h */; };
+		26B8B2DA24A849E70039D99D /* WechatAuthSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B2D624A841060039D99D /* WechatAuthSDK.h */; };
+		26B8B2DC24A84A040039D99D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B8B2D424A841050039D99D /* libWeChatSDK.a */; };
 		361715472279EE0000E45362 /* RNLWeChatReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 361715462279EE0000E45362 /* RNLWeChatReq.m */; };
 		361715492279F0F700E45362 /* RNLWeChatAPIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361715482279F0F700E45362 /* RNLWeChatAPIDelegate.m */; };
 		361715BC227EC02E00E45362 /* RNLWeChatResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 361715BB227EC02E00E45362 /* RNLWeChatResp.m */; };
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B8B2D824A841060039D99D /* libWeChatSDK.a in Frameworks */,
+				26B8B2DC24A84A040039D99D /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +54,13 @@
 				134814201AA4EA6300B7C361 /* libRNLWeChat.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		26B8B2DB24A84A040039D99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		368AFA58204D29DF00ABB362 /* SDK */ = {
@@ -81,6 +90,7 @@
 				361715BE227EC8DF00E45362 /* RNLWeChatAPIObjectConvert.m */,
 				368AFA58204D29DF00ABB362 /* SDK */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				26B8B2DB24A84A040039D99D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B8B2DA24A849E70039D99D /* WechatAuthSDK.h in Sources */,
+				26B8B2D924A849E00039D99D /* WXApi.h in Sources */,
 				361715BC227EC02E00E45362 /* RNLWeChatResp.m in Sources */,
 				361715492279F0F700E45362 /* RNLWeChatAPIDelegate.m in Sources */,
 				361715472279EE0000E45362 /* RNLWeChatReq.m in Sources */,
